@@ -2,7 +2,7 @@ import string
 
 rot13 = string.maketrans(
     "ABCDEFGHIJKLMabcdefghijklmNOPQRSTUVWXYZnopqrstuvwxyz",
-    "NOPQRSTUVWXYZnopqrstuvwxyzABCDEFGHIJKLMabcdefghijklm")
+    "NOPQRSTUVWXYZnopqrstuuwxyzABCDEFGHIJKLMabcdeffhijklm")
 
 
 def encrypt(s):
