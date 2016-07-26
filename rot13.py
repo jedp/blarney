@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import string
 
 rot13 = string.maketrans(
