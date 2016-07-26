@@ -15,3 +15,4 @@ def decrypt(s):
 # Run tests.
 if __name__ == '__main__':
     assert(encrypt("Attack at dawn!") == "Nggnpx ng qnja!")
+    assert(decrypt("Nggnpx ng qnja!") == "Attack at dawn!")
